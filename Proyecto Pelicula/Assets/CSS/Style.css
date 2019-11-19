@@ -1,0 +1,75 @@
+.container{
+    display: grid;
+    color: black;
+    font-family: fantasy;
+    background-color: yellow;
+    width: 90%;
+    margin-left: 6%;
+    grid-column: 1/4;
+}
+.header{
+    width: 100%;
+    height:600px;
+    grid-column: 1/4;
+    background-image: url("../Img/P.jpg");
+    background-color: aqua;
+    color: black;
+    margin-left: 0%;
+}
+
+.Sinopsis{ 
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-column: 2/4;
+    font-family: fantasy;
+
+}
+.nav li{
+    align-items: center;
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+    background-color: black;
+    grid-column: 1/4;
+
+}
+.nav{
+    background-color: black;
+    grid-column: 1/4;
+
+
+}
+h4{
+    background-color: violet;
+    margin: 10%;   
+}
+footer{
+    background-color: black;
+    color:white;
+    grid-column: 1/4;
+    text-align: center;
+    
+    
+
+}
+.resenias{color:black;
+    grid-column: 1/4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    width: 50%;
+}
+    
+.button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+
+}
+
+.resenia{
+    background-color: yellow;
+    color: black;
+    grid-column: 1/4;
+}
